@@ -34,6 +34,7 @@ class App extends React.Component {
   }
 
   render() {
+    
     const { list } = this.props.store.getState(); // {list: [], favourites: []}
     return (
       <div className="App">
