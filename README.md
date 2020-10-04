@@ -1,3 +1,16 @@
+# TacoFlex Movies
+A basic React and Redux base app to search, list movies and to add them to favourites.
+
+## Screenshots
+<img src="https://github.com/utkarsh2210/TacoFlex_Movies/blob/master/screenshots/main.PNG" width=500><img src="https://github.com/utkarsh2210/TacoFlex_Movies/blob/master/screenshots/search.PNG" width=500><img src="https://github.com/utkarsh2210/TacoFlex_Movies/blob/master/screenshots/favourites.PNG" width=500>
+
+## Features
+1. Add a particular movie to Favourites
+2. Search for new movies (OMDB API USED)
+3. Add movies from search results to movies list.
+
+Database has not been included in this project. Any changes made, will be lost upon refreshing the page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
