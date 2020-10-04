@@ -37,6 +37,8 @@ class Navbar extends React.Component {
         const { result:movie , showSearchResults } = this.props.search;
         return (
             <div className="nav">
+                <div class="Website-logo"> <img src="https://www.flaticon.com/svg/static/icons/svg/651/651106.svg"/></div>
+                <div className="Website-name">TacoFlex</div>
                 <div className="search-container">
                     <input onChange={this.handleChange}/>
                     <button id="search-btn" onClick={this.handleSearch}>Search</button>
